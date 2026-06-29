@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>時計一番.madoguchi｜高価買取は時計一番へ</title>
+  <meta name="description" content="その時計、まだ眠っていませんか？高価買取は時計一番.madoguchi。業界トップクラスの買取実績・全国出張・宅配対応・最短当日現金化。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700;900&family=Noto+Serif+JP:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            gold: {
+              50: '#fefce8',
+              100: '#fef9c3',
+              400: '#facc15',
+              500: '#eab308',
+              600: '#ca8a04',
+              700: '#a16207',
+              800: '#854d0e',
+              900: '#713f12',
+            },
+            navy: {
+              800: '#1e2a3a',
+              900: '#0f1922',
+              950: '#0a1118',
+            }
+          },
+          fontFamily: {
+            sans: ['"Noto Sans JP"', 'sans-serif'],
+            serif: ['"Noto Serif JP"', 'serif'],
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+    .hero-bg {
+      background: linear-gradient(135deg, rgba(10,17,24,0.88) 0%, rgba(15,25,34,0.75) 50%, rgba(10,17,24,0.60) 100%),
+        url('https://images.unsplash.com/photo-1547996160-81dfa63595aa?w=1600&q=80') center/cover no-repeat;
+    }
+    .gold-gradient { background: linear-gradient(135deg, #ca8a04, #eab308, #ca8a04); }
+    .gold-text { background: linear-gradient(135deg, #ca8a04, #fbbf24, #ca8a04); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+    .section-divider { border-top: 3px solid; border-image: linear-gradient(90deg, transparent, #ca8a04, transparent) 1; }
+    .card-hover { transition: transform 0.25s ease, box-shadow 0.25s ease; }
+    .card-hover:hover { transform: translateY(-4px); box-shadow: 0 12px 30px rgba(0,0,0,0.12); }
+    .faq-content { max-height: 0; overflow: hidden; transition: max-height 0.35s ease; }
+    .faq-item.open .faq-content { max-height: 200px; }
+    .faq-item.open .faq-icon { transform: rotate(45deg); }
+    .faq-icon { transition: transform 0.3s ease; }
+    .sticky-header { position: sticky; top: 0; z-index: 1000; }
+    .line-btn { background-color: #06c755; }
+    .line-btn:hover { background-color: #05b34d; }
+    .watch-card img { transition: transform 0.4s ease; }
+    .watch-card:hover img { transform: scale(1.05); }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+    }
+  </style>
+</head>
+<body class="font-sans text-gray-800 bg-white">
+
+<!-- ========== HEADER ========== -->
+<header class="sticky-header bg-navy-900 text-white shadow-lg">
+  <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+    <a href="#" class="flex items-center gap-2 focus:outline-none focus:ring-2 focus:ring-gold-500 rounded">
+      <span class="text-gold-500 text-xl font-serif font-bold tracking-wide">時計一番<span class="text-white text-sm font-sans">.madoguchi</span></span>
+    </a>
+    <nav class="hidden lg:flex items-center gap-6 text-sm font-medium" aria-label="グローバルナビゲーション">
+      <a href="#reason" class="hover:text-gold-400 transition-colors focus:outline-none focus:ring-2 focus:ring-gold-500 rounded">選ばれる理由</a>
+      <a href="#results" class="hover:text-gold-400 transition-colors focus:outline-none focus:ring-2 focus:ring-gold-500 rounded">買取実績</a>
+      <a href="#flow" class="hover:text-gold-400 transition-colors focus:outline-none focus:ring-2 focus:ring-gold-500 rounded">ご利用の流れ</a>
+      <a href="#nationwide" class="hover:text-gold-400 transition-colors focus:outline-none focus:ring-2 focus:ring-gold-500 rounded">全国対応</a>
+      <a href="#voice" class="hover:text-gold-400 transition-colors focus:outline-none focus:ring-2 focus:ring-gold-500 rounded">お客様の声</a>
+      <a href="#faq" class="hover:text-gold-400 transition-colors focus:outline-none focus:ring-2 focus:ring-gold-500 rounded">よくある質問</a>
+    </nav>
+    <a href="#form" class="gold-gradient text-white text-sm font-bold px-5 py-2.5 rounded-full shadow hover:opacity-90 transition-opacity focus:outline-none focus:ring-2 focus:ring-gold-400 cursor-pointer">
+      無料査定フォーム
+    </a>
+  </div>
+</header>
+
+<!-- ========== HERO ========== -->
+<section class="hero-bg min-h-[90vh] flex items-center relative" aria-label="ヒーロー">
+  <div class="max-w-7xl mx-auto px-4 py-16 w-full grid lg:grid-cols-2 gap-10 items-center">
+    <!-- Left -->
+    <div class="text-white">
+      <p class="text-gold-400 text-sm font-bold tracking-widest mb-3 uppercase">Premium Watch Buyers</p>
+      <h1 class="text-3xl md:text-4xl xl:text-5xl font-serif font-bold leading-tight mb-4">
+        その時計、<br>まだ眠っていませんか？
+      </h1>
+      <p class="text-xl md:text-2xl font-bold mb-6 leading-relaxed">
+        <span class="gold-text text-2xl md:text-3xl">高価買取</span>は<br class="md:hidden">
+        <span class="text-white">時計一番.madoguchi</span>
+      </p>
+      <p class="text-gray-300 text-sm mb-8 leading-relaxed">
+        業界トップクラスの買取実績 / 全国出張・宅配対応 / 最短当日現金化
+      </p>
+
+      <!-- Features -->
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-8">
+        <div class="flex flex-col items-center bg-white/10 backdrop-blur-sm rounded-lg px-3 py-3 text-center">
+          <svg class="w-7 h-7 text-gold-400 mb-1" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          <span class="text-xs font-bold leading-tight">高価買取<br>保証</span>
+        </div>
+        <div class="flex flex-col items-center bg-white/10 backdrop-blur-sm rounded-lg px-3 py-3 text-center">
+          <svg class="w-7 h-7 text-gold-400 mb-1" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 6.75V15m6-6v8.25m.503 3.498l4.875-2.437c.381-.19.622-.58.622-1.006V4.82c0-.836-.88-1.38-1.628-1.006l-3.869 1.934c-.317.159-.69.159-1.006 0L9.503 3.252a1.125 1.125 0 00-1.006 0L3.622 5.689C3.24 5.88 3 6.27 3 6.695V19.18c0 .836.88 1.38 1.628 1.006l3.869-1.934c.317-.159.69-.159 1.006 0l4.994 2.497c.317.158.69.158 1.006 0z"/></svg>
+          <span class="text-xs font-bold leading-tight">全国<br>対応</span>
+        </div>
+        <div class="flex flex-col items-center bg-white/10 backdrop-blur-sm rounded-lg px-3 py-3 text-center">
+          <svg class="w-7 h-7 text-gold-400 mb-1" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m-3-2.818l.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          <span class="text-xs font-bold leading-tight">査定費用・<br>出張費無料</span>
+        </div>
+        <div class="flex flex-col items-center bg-white/10 backdrop-blur-sm rounded-lg px-3 py-3 text-center">
+          <svg class="w-7 h-7 text-gold-400 mb-1" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          <span class="text-xs font-bold leading-tight">営業時間<br>9:00-21:00</span>
+        </div>
+      </div>
+
+      <!-- CTAs -->
+      <div class="flex flex-col sm:flex-row gap-3">
+        <a href="#form" class="gold-gradient text-white font-bold px-7 py-4 rounded-full text-center shadow-lg hover:opacity-90 transition-opacity focus:outline-none focus:ring-2 focus:ring-gold-400 cursor-pointer text-sm md:text-base">
+          無料査定フォームはこちら →
+        </a>
+        <a href="#line" class="line-btn text-white font-bold px-7 py-4 rounded-full text-center shadow-lg hover:opacity-90 transition-opacity focus:outline-none focus:ring-2 focus:ring-green-400 cursor-pointer flex items-center justify-center gap-2 text-sm md:text-base">
+          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19.365 9.89c.50 0 .906.41.906.91s-.406.91-.906.91H17.35v1.14h2.016c.5 0 .906.41.906.91s-.406.91-.906.91H16.44a.91.91 0 01-.906-.91V8.98c0-.5.406-.91.906-.91h2.925zm-7.38 3.87c0 .5-.406.91-.906.91-.5 0-.906-.41-.906-.91V8.98c0-.5.406-.91.906-.91s.906.41.906.91v4.78zm-3.24.91H6.73a.91.91 0 01-.906-.91V8.98c0-.5.406-.91.906-.91s.906.41.906.91v3.87h1.109c.5 0 .906.41.906.91s-.406.91-.906.91zM24 10.31C24 4.62 18.615 0 12 0S0 4.62 0 10.31c0 5.09 4.515 9.36 10.607 10.172.413.09.975.274 1.117.628.127.321.083.824.041 1.148l-.18 1.08c-.055.321-.253 1.255 1.098.684 1.352-.572 7.297-4.296 9.957-7.354C23.329 14.54 24 12.5 24 10.31z"/></svg>
+          LINEで簡単査定
+        </a>
+      </div>
+    </div>
+
+    <!-- Right: Form -->
+    <div id="form" class="bg-white rounded-2xl shadow-2xl p-6 md:p-8">
+      <h2 class="text-navy-900 text-lg font-bold mb-1 text-center">今すぐ簡単査定</h2>
+      <p class="text-gray-500 text-xs text-center mb-5">無料・最短当日現金化</p>
+      <form class="space-y-3" aria-label="無料査定フォーム" novalidate>
+        <div>
+          <label for="name" class="block text-xs font-semibold text-gray-700 mb-1">お名前 <span class="text-red-500" aria-label="必須">*</span></label>
+          <input id="name" type="text" name="name" autocomplete="name" required placeholder="例）山田 太郎"
+            class="w-full border border-gray-300 rounded-lg px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-gold-500 focus:border-transparent">
+        </div>
+        <div>
+          <label for="tel" class="block text-xs font-semibold text-gray-700 mb-1">電話番号 <span class="text-red-500" aria-label="必須">*</span></label>
+          <input id="tel" type="tel" name="tel" autocomplete="tel" required placeholder="例）090-1234-5678"
+            class="w-full border border-gray-300 rounded-lg px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-gold-500 focus:border-transparent">
+        </div>
+        <div>
+          <label for="email" class="block text-xs font-semibold text-gray-700 mb-1">メールアドレス</label>
+          <input id="email" type="email" name="email" autocomplete="email" placeholder="例）sample@mail.com"
+            class="w-full border border-gray-300 rounded-lg px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-gold-500 focus:border-transparent">
+        </div>
+        <div>
+          <label for="brand" class="block text-xs font-semibold text-gray-700 mb-1">ブランド名</label>
+          <input id="brand" type="text" name="brand" placeholder="例）ロレックス"
+            class="w-full border border-gray-300 rounded-lg px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-gold-500 focus:border-transparent">
+        </div>
+        <div>
+          <label for="timing" class="block text-xs font-semibold text-gray-700 mb-1">希望連絡時間帯</label>
+          <select id="timing" name="timing"
+            class="w-full border border-gray-300 rounded-lg px-3 py-2.5 text-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-gold-500 focus:border-transparent bg-white cursor-pointer">
+            <option value="">選択してください</option>
+            <option>午前中（9:00〜12:00）</option>
+            <option>午後（12:00〜18:00）</option>
+            <option>夕方以降（18:00〜21:00）</option>
+            <option>いつでも可</option>
+          </select>
+        </div>
+        <button type="submit"
+          class="w-full gold-gradient text-white font-bold py-3.5 rounded-lg text-sm shadow-md hover:opacity-90 transition-opacity focus:outline-none focus:ring-2 focus:ring-gold-400 cursor-pointer mt-1">
+          無料査定を申し込む
+        </button>
+        <p class="text-xs text-gray-400 text-center">入力いただいた個人情報は査定以外には使用しません</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ========== WHY CHOOSE US ========== -->
+<section id="reason" class="py-16 bg-gray-50">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="text-center mb-12">
+      <p class="text-gold-700 text-xs font-bold tracking-widest uppercase mb-2">Why Choose Us</p>
+      <h2 class="text-2xl md:text-3xl font-serif font-bold text-navy-900">時計一番.madoguchiが<span class="gold-text">選ばれる理由</span></h2>
+    </div>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <!-- Card 1 -->
+      <div class="card-hover bg-white rounded-xl p-6 shadow text-center">
+        <div class="w-14 h-14 gold-gradient rounded-full flex items-center justify-center mx-auto mb-4">
+          <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z"/></svg>
+        </div>
+        <h3 class="font-bold text-navy-900 mb-2">業界最高水準の<br>高価買取</h3>
+        <p class="text-gray-500 text-xs leading-relaxed">独自の販売ルート・国内外バイヤーとの直接取引により、他社では出せない高価格を実現。</p>
+      </div>
+      <!-- Card 2 -->
+      <div class="card-hover bg-white rounded-xl p-6 shadow text-center">
+        <div class="w-14 h-14 gold-gradient rounded-full flex items-center justify-center mx-auto mb-4">
+          <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 00-3.213-9.193 2.056 2.056 0 00-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 00-10.026 0 1.106 1.106 0 00-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12"/></svg>
+        </div>
+        <h3 class="font-bold text-navy-900 mb-2">全国対応の<br>出張買取・宅配買取</h3>
+        <p class="text-gray-500 text-xs leading-relaxed">ご自宅にいながら全て完結。出張費・査定費用は完全無料。全国どこでもご利用可能。</p>
+      </div>
+      <!-- Card 3 -->
+      <div class="card-hover bg-white rounded-xl p-6 shadow text-center">
+        <div class="w-14 h-14 gold-gradient rounded-full flex items-center justify-center mx-auto mb-4">
+          <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"/></svg>
+        </div>
+        <h3 class="font-bold text-navy-900 mb-2">専門スタッフ50名体制の<br><span class="gold-text">鑑定力</span></h3>
+        <p class="text-gray-500 text-xs leading-relaxed">時計専門の鑑定士が在籍。状態・稼動やレアリティを正確に評価。</p>
+      </div>
+      <!-- Card 4 -->
+      <div class="card-hover bg-white rounded-xl p-6 shadow text-center">
+        <div class="w-14 h-14 gold-gradient rounded-full flex items-center justify-center mx-auto mb-4">
+          <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"/></svg>
+        </div>
+        <h3 class="font-bold text-navy-900 mb-2">安心の<br>運営体制</h3>
+        <p class="text-gray-500 text-xs leading-relaxed">株式会社林崎が運営。正規の買取事業者。査定・キャンセル料なし。</p>
+      </div>
+    </div>
+
+    <!-- Comparison -->
+    <div class="mt-12 bg-white rounded-2xl shadow-md p-8 max-w-2xl mx-auto">
+      <div class="flex items-center justify-between mb-2">
+        <p class="text-sm font-bold text-gray-800">他社比較でも<br>高価買取を実現！</p>
+        <div class="flex items-center gap-2 bg-gold-700 text-white text-xs font-bold px-4 py-2 rounded-lg">
+          <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 1a9 9 0 100 18A9 9 0 0010 1zm.75 13.5h-1.5v-6h1.5v6zm0-7.5h-1.5V5.5h1.5V7z"/></svg>
+          高価買取保証
+        </div>
+      </div>
+      <p class="text-xs text-gray-400 mb-5">※当社調べ</p>
+      <div class="space-y-4">
+        <div>
+          <div class="flex justify-between text-sm font-bold mb-1">
+            <span class="text-navy-900">時計一番.madoguchi</span>
+            <span class="text-gold-700">185万円</span>
+          </div>
+          <div class="bg-gray-100 rounded-full h-4 overflow-hidden">
+            <div class="gold-gradient h-full rounded-full" style="width: 100%"></div>
+          </div>
+        </div>
+        <div>
+          <div class="flex justify-between text-sm mb-1">
+            <span class="text-gray-600">A社</span>
+            <span class="text-gray-600">160万円</span>
+          </div>
+          <div class="bg-gray-100 rounded-full h-4 overflow-hidden">
+            <div class="bg-gray-400 h-full rounded-full" style="width: 86%"></div>
+          </div>
+        </div>
+        <div>
+          <div class="flex justify-between text-sm mb-1">
+            <span class="text-gray-600">B社</span>
+            <span class="text-gray-600">142万円</span>
+          </div>
+          <div class="bg-gray-100 rounded-full h-4 overflow-hidden">
+            <div class="bg-gray-300 h-full rounded-full" style="width: 77%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== RESULTS / BRANDS ========== -->
+<section id="results" class="py-16 bg-white">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="text-center mb-10">
+      <p class="text-gold-700 text-xs font-bold tracking-widest uppercase mb-2">Purchase Results</p>
+      <h2 class="text-2xl md:text-3xl font-serif font-bold text-navy-900">買取実績・<span class="gold-text">取扱ブランド</span></h2>
+    </div>
+
+    <!-- Brand Tags -->
+    <div class="flex flex-wrap gap-2 justify-center mb-8" role="list" aria-label="取扱ブランド一覧">
+      {['ロレックス','オメガ','パテックフィリップ','ジャガー・ルクルト','オーデマ ピゲ','グランドセイコー'].map(b =>
+        `<span role="listitem" class="border border-gray-300 rounded-full px-4 py-1.5 text-sm font-medium hover:border-gold-500 hover:text-gold-700 transition-colors cursor-default">${b}</span>`
+      ).join('')}
+    </div>
+    <div class="flex flex-wrap gap-2 justify-center mb-10">
+      <span class="border border-gray-300 rounded-full px-4 py-1.5 text-sm font-medium hover:border-gold-500 hover:text-gold-700 transition-colors cursor-default">ロレックス</span>
+      <span class="border border-gray-300 rounded-full px-4 py-1.5 text-sm font-medium hover:border-gold-500 hover:text-gold-700 transition-colors cursor-default">オメガ</span>
+      <span class="border border-gray-300 rounded-full px-4 py-1.5 text-sm font-medium hover:border-gold-500 hover:text-gold-700 transition-colors cursor-default">パテックフィリップ</span>
+      <span class="border border-gray-300 rounded-full px-4 py-1.5 text-sm font-medium hover:border-gold-500 hover:text-gold-700 transition-colors cursor-default">ジャガー・ルクルト</span>
+      <span class="border border-gray-300 rounded-full px-4 py-1.5 text-sm font-medium hover:border-gold-500 hover:text-gold-700 transition-colors cursor-default">オーデマ ピゲ</span>
+      <span class="border border-gray-300 rounded-full px-4 py-1.5 text-sm font-medium hover:border-gold-500 hover:text-gold-700 transition-colors cursor-default">グランドセイコー</span>
+    </div>
+
+    <!-- Watch Cards -->
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+      <div class="watch-card bg-gray-50 rounded-xl overflow-hidden shadow-sm border border-gray-100 card-hover">
+        <div class="aspect-square overflow-hidden bg-gray-200">
+          <img src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49?w=400&q=80" alt="ロレックス サブマリーナー" class="w-full h-full object-cover">
+        </div>
+        <div class="p-3">
+          <p class="text-xs text-gray-500 mb-0.5">ロレックス</p>
+          <p class="text-xs font-bold text-navy-900 leading-tight mb-2">サブマリーナー</p>
+          <p class="text-xs text-gray-500">参考買取価格</p>
+          <p class="text-sm font-bold text-gold-700">¥1,850,000</p>
+        </div>
+      </div>
+      <div class="watch-card bg-gray-50 rounded-xl overflow-hidden shadow-sm border border-gray-100 card-hover">
+        <div class="aspect-square overflow-hidden bg-gray-200">
+          <img src="https://images.unsplash.com/photo-1547996160-81dfa63595aa?w=400&q=80" alt="オメガ スピードマスター" class="w-full h-full object-cover">
+        </div>
+        <div class="p-3">
+          <p class="text-xs text-gray-500 mb-0.5">オメガ</p>
+          <p class="text-xs font-bold text-navy-900 leading-tight mb-2">スピードマスター</p>
+          <p class="text-xs text-gray-500">参考買取価格</p>
+          <p class="text-sm font-bold text-gold-700">¥620,000</p>
+        </div>
+      </div>
+      <div class="watch-card bg-gray-50 rounded-xl overflow-hidden shadow-sm border border-gray-100 card-hover">
+        <div class="aspect-square overflow-hidden bg-gray-200">
+          <img src="https://images.unsplash.com/photo-1586891255891-ee3c8e0bb49e?w=400&q=80" alt="パテックフィリップ カラトラバ" class="w-full h-full object-cover">
+        </div>
+        <div class="p-3">
+          <p class="text-xs text-gray-500 mb-0.5">パテックフィリップ</p>
+          <p class="text-xs font-bold text-navy-900 leading-tight mb-2">カラトラバ</p>
+          <p class="text-xs text-gray-500">参考買取価格</p>
+          <p class="text-sm font-bold text-gold-700">¥2,400,000</p>
+        </div>
+      </div>
+      <div class="watch-card bg-gray-50 rounded-xl overflow-hidden shadow-sm border border-gray-100 card-hover">
+        <div class="aspect-square overflow-hidden bg-gray-200">
+          <img src="https://images.unsplash.com/photo-1622434641406-a158123450f9?w=400&q=80" alt="オーデマ ピゲ ロイヤルオーク" class="w-full h-full object-cover">
+        </div>
+        <div class="p-3">
+          <p class="text-xs text-gray-500 mb-0.5">オーデマ ピゲ</p>
+          <p class="text-xs font-bold text-navy-900 leading-tight mb-2">ロイヤルオーク</p>
+          <p class="text-xs text-gray-500">参考買取価格</p>
+          <p class="text-sm font-bold text-gold-700">¥3,200,000</p>
+        </div>
+      </div>
+      <div class="watch-card bg-gray-50 rounded-xl overflow-hidden shadow-sm border border-gray-100 card-hover">
+        <div class="aspect-square overflow-hidden bg-gray-200">
+          <img src="https://images.unsplash.com/photo-1509941943102-10c232535736?w=400&q=80" alt="グランドセイコー ヘリテージコレクション" class="w-full h-full object-cover">
+        </div>
+        <div class="p-3">
+          <p class="text-xs text-gray-500 mb-0.5">グランドセイコー</p>
+          <p class="text-xs font-bold text-navy-900 leading-tight mb-2">ヘリテージコレクション</p>
+          <p class="text-xs text-gray-500">参考買取価格</p>
+          <p class="text-sm font-bold text-gold-700">¥450,000</p>
+        </div>
+      </div>
+      <div class="watch-card bg-gray-50 rounded-xl overflow-hidden shadow-sm border border-gray-100 card-hover">
+        <div class="aspect-square overflow-hidden bg-gray-200">
+          <img src="https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=400&q=80" alt="ジャガー・ルクルト レベルソ" class="w-full h-full object-cover">
+        </div>
+        <div class="p-3">
+          <p class="text-xs text-gray-500 mb-0.5">ジャガー・ルクルト</p>
+          <p class="text-xs font-bold text-navy-900 leading-tight mb-2">レベルソ</p>
+          <p class="text-xs text-gray-500">参考買取価格</p>
+          <p class="text-sm font-bold text-gold-700">¥720,000</p>
+        </div>
+      </div>
+    </div>
+    <p class="text-center text-xs text-gray-400 mt-4">
+      <svg class="inline w-3.5 h-3.5 mr-1 -mt-0.5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a.75.75 0 000 1.5h.253a.25.25 0 01.244.304l-.459 2.066A1.75 1.75 0 0010.747 15H11a.75.75 0 000-1.5h-.253a.25.25 0 01-.244-.304l.459-2.066A1.75 1.75 0 009.253 9H9z" clip-rule="evenodd"/></svg>
+      ブランド・モデルが分からなくても査定可能です
+    </p>
+  </div>
+</section>
+
+<!-- ========== WHY HIGH PRICE ========== -->
+<section class="py-16 bg-navy-900 text-white">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="grid lg:grid-cols-2 gap-10 items-start">
+      <!-- Left: Reasons -->
+      <div>
+        <p class="text-gold-400 text-xs font-bold tracking-widest uppercase mb-2">Our Strengths</p>
+        <h2 class="text-2xl md:text-3xl font-serif font-bold mb-8"><span class="gold-text">高価買取</span>ができる理由</h2>
+        <div class="space-y-6">
+          <div class="flex gap-4">
+            <div class="w-10 h-10 gold-gradient rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+              <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418"/></svg>
+            </div>
+            <div>
+              <h3 class="font-bold mb-1">海外バイヤー・専門店ルートで中間コストを削減</h3>
+              <p class="text-gray-300 text-sm leading-relaxed">国内外の独自ルートを確保し、高く売れるルートを常に確認。</p>
+            </div>
+          </div>
+          <div class="flex gap-4">
+            <div class="w-10 h-10 gold-gradient rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+              <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"/></svg>
+            </div>
+            <div>
+              <h3 class="font-bold mb-1">鑑定士が直接価値を見極め、過小評価しない</h3>
+              <p class="text-gray-300 text-sm leading-relaxed">専門知識と経験で、時計の価値を正確に判断。</p>
+            </div>
+          </div>
+          <div class="flex gap-4">
+            <div class="w-10 h-10 gold-gradient rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+              <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 00-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75M15 10.5a3 3 0 11-6 0 3 3 0 016 0zm3 0h.008v.008H18V10.5zm-12 0h.008v.008H6V10.5z"/></svg>
+            </div>
+            <div>
+              <h3 class="font-bold mb-1">在庫回転と資金化の仕組みで高価格を提示</h3>
+              <p class="text-gray-300 text-sm leading-relaxed">在庫に頼らない迅速な資金化で継続的に高価格買取を実現。</p>
+            </div>
+          </div>
+          <div class="flex gap-4">
+            <div class="w-10 h-10 gold-gradient rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+              <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 00-3.7-3.7 48.678 48.678 0 00-7.324 0 4.006 4.006 0 00-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3l-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 003.7 3.7 48.656 48.656 0 007.324 0 4.006 4.006 0 003.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3l-3 3"/></svg>
+            </div>
+            <div>
+              <h3 class="font-bold mb-1">シンプルな買取フロー</h3>
+              <p class="text-gray-300 text-sm leading-relaxed">査定 → 鑑定 → 専門販売 → 高価買取。無駄なコストゼロ。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Flow -->
+      <div id="flow">
+        <p class="text-gold-400 text-xs font-bold tracking-widest uppercase mb-2">How It Works</p>
+        <h2 class="text-2xl md:text-3xl font-serif font-bold mb-8">ご利用の<span class="gold-text">流れ</span></h2>
+        <div class="grid sm:grid-cols-2 gap-4">
+          <!-- 出張買取 -->
+          <div class="bg-white/10 backdrop-blur-sm rounded-xl p-5">
+            <div class="gold-gradient text-white text-xs font-bold px-3 py-1 rounded-full inline-block mb-4">出張買取</div>
+            <ol class="space-y-3 text-sm">
+              <li class="flex gap-3">
+                <span class="w-6 h-6 gold-gradient rounded-full flex items-center justify-center text-white text-xs font-bold flex-shrink-0">1</span>
+                <span class="text-gray-200">フォーム/LINEで無料査定を依頼</span>
+              </li>
+              <li class="flex gap-3">
+                <span class="w-6 h-6 gold-gradient rounded-full flex items-center justify-center text-white text-xs font-bold flex-shrink-0">2</span>
+                <span class="text-gray-200">担当スタッフよりお電話でヒアリング・日程調整</span>
+              </li>
+              <li class="flex gap-3">
+                <span class="w-6 h-6 gold-gradient rounded-full flex items-center justify-center text-white text-xs font-bold flex-shrink-0">3</span>
+                <span class="text-gray-200">ご指定日時にご自宅へ訪問・査定</span>
+              </li>
+              <li class="flex gap-3">
+                <span class="w-6 h-6 gold-gradient rounded-full flex items-center justify-center text-white text-xs font-bold flex-shrink-0">4</span>
+                <span class="text-gray-200">ご納得後に現金または口座振込</span>
+              </li>
+            </ol>
+          </div>
+          <!-- 宅配買取 -->
+          <div class="bg-white/10 backdrop-blur-sm rounded-xl p-5">
+            <div class="bg-navy-800 text-white text-xs font-bold px-3 py-1 rounded-full inline-block mb-4 border border-gold-600">宅配買取</div>
+            <ol class="space-y-3 text-sm">
+              <li class="flex gap-3">
+                <span class="w-6 h-6 bg-gray-600 rounded-full flex items-center justify-center text-white text-xs font-bold flex-shrink-0">1</span>
+                <span class="text-gray-200">フォーム/LINEで無料査定を依頼</span>
+              </li>
+              <li class="flex gap-3">
+                <span class="w-6 h-6 bg-gray-600 rounded-full flex items-center justify-center text-white text-xs font-bold flex-shrink-0">2</span>
+                <span class="text-gray-200">担当スタッフよりお電話でヒアリング・日程調整</span>
+              </li>
+              <li class="flex gap-3">
+                <span class="w-6 h-6 bg-gray-600 rounded-full flex items-center justify-center text-white text-xs font-bold flex-shrink-0">3</span>
+                <span class="text-gray-200">無料キットを発送・梱包して着払い発送</span>
+              </li>
+              <li class="flex gap-3">
+                <span class="w-6 h-6 bg-gray-600 rounded-full flex items-center justify-center text-white text-xs font-bold flex-shrink-0">4</span>
+                <span class="text-gray-200">ご納得後に現金または口座振込</span>
+              </li>
+            </ol>
+          </div>
+        </div>
+        <div class="mt-4 bg-gold-700/20 border border-gold-600 rounded-xl p-4 text-center">
+          <p class="text-gold-300 text-sm font-bold">
+            <svg class="inline w-4 h-4 mr-1 -mt-0.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 00-3.213-9.193 2.056 2.056 0 00-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 00-10.026 0 1.106 1.106 0 00-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12"/></svg>
+            ご納得いただけない場合は<span class="underline">返送料無料</span>でキャンセル可能
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== NATIONWIDE ========== -->
+<section id="nationwide" class="py-16 bg-gray-50">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="grid lg:grid-cols-2 gap-10 items-center">
+      <div>
+        <p class="text-gold-700 text-xs font-bold tracking-widest uppercase mb-2">Nationwide</p>
+        <h2 class="text-2xl md:text-3xl font-serif font-bold text-navy-900 mb-4"><span class="gold-text">全国対応</span></h2>
+        <p class="text-gray-600 leading-relaxed mb-4">ご自宅から一歩も出ずに完結。出張・宅配どちらでも全国対応いたします。</p>
+        <div class="flex items-center gap-3 bg-white rounded-xl p-4 shadow-sm border border-gold-200">
+          <div class="w-10 h-10 gold-gradient rounded-full flex items-center justify-center flex-shrink-0">
+            <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          </div>
+          <p class="text-sm font-bold text-navy-900">離島もOK！</p>
+        </div>
+      </div>
+      <div class="relative">
+        <!-- Japan Map Placeholder -->
+        <div class="bg-white rounded-2xl shadow-md p-8 text-center border border-gray-100">
+          <svg viewBox="0 0 200 220" class="w-full max-w-xs mx-auto" aria-label="日本地図（全国対応）">
+            <defs>
+              <linearGradient id="mapGold" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#ca8a04;stop-opacity:0.15"/>
+                <stop offset="100%" style="stop-color:#eab308;stop-opacity:0.3"/>
+              </linearGradient>
+            </defs>
+            <!-- Simplified Japan outline -->
+            <ellipse cx="110" cy="80" rx="30" ry="50" fill="url(#mapGold)" stroke="#ca8a04" stroke-width="1.5"/>
+            <ellipse cx="85" cy="140" rx="35" ry="45" fill="url(#mapGold)" stroke="#ca8a04" stroke-width="1.5"/>
+            <ellipse cx="55" cy="130" rx="20" ry="30" fill="url(#mapGold)" stroke="#ca8a04" stroke-width="1.5"/>
+            <ellipse cx="45" cy="175" rx="25" ry="20" fill="url(#mapGold)" stroke="#ca8a04" stroke-width="1.5"/>
+            <ellipse cx="130" cy="45" rx="15" ry="25" fill="url(#mapGold)" stroke="#ca8a04" stroke-width="1.5"/>
+            <!-- Pins -->
+            <circle cx="95" cy="130" r="5" fill="#ca8a04"/>
+            <circle cx="110" cy="80" r="4" fill="#eab308"/>
+            <circle cx="55" cy="135" r="4" fill="#eab308"/>
+            <circle cx="130" cy="50" r="3" fill="#eab308"/>
+            <circle cx="50" cy="170" r="3" fill="#eab308"/>
+          </svg>
+          <p class="text-navy-900 font-bold mt-2">日本全国どこでも対応</p>
+          <p class="text-gray-500 text-xs mt-1">北海道から沖縄まで・離島もご相談ください</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CUSTOMER VOICE ========== -->
+<section id="voice" class="py-16 bg-white">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="text-center mb-12">
+      <p class="text-gold-700 text-xs font-bold tracking-widest uppercase mb-2">Customer Voice</p>
+      <h2 class="text-2xl md:text-3xl font-serif font-bold text-navy-900">お客様の声・<span class="gold-text">買取実績写真</span></h2>
+    </div>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="card-hover bg-gray-50 rounded-2xl p-6 shadow-sm border border-gray-100">
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-12 h-12 bg-gold-100 rounded-full flex items-center justify-center">
+            <svg class="w-6 h-6 text-gold-700" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z"/></svg>
+          </div>
+          <div>
+            <p class="font-bold text-sm text-navy-900">60代男性</p>
+            <div class="flex text-gold-500 text-xs" aria-label="5つ星評価">
+              ★★★★★
+            </div>
+          </div>
+        </div>
+        <p class="text-sm text-gray-600 leading-relaxed">「長年眠っていたロレックスを思いのほか高額で買い取ってもらえました。鑑定士の方も丁寧で安心できました。」</p>
+        <div class="mt-4 rounded-xl overflow-hidden aspect-video bg-gray-200">
+          <img src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49?w=400&q=70" alt="お客様買取実績（ロレックス）" class="w-full h-full object-cover">
+        </div>
+      </div>
+      <div class="card-hover bg-gray-50 rounded-2xl p-6 shadow-sm border border-gray-100">
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-12 h-12 bg-gold-100 rounded-full flex items-center justify-center">
+            <svg class="w-6 h-6 text-gold-700" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z"/></svg>
+          </div>
+          <div>
+            <p class="font-bold text-sm text-navy-900">50代女性</p>
+            <div class="flex text-gold-500 text-xs" aria-label="5つ星評価">
+              ★★★★★
+            </div>
+          </div>
+        </div>
+        <p class="text-sm text-gray-600 leading-relaxed">「自宅にいながら完結できて、忙しい私にとって最高のサービスでした。査定金額も他社より30万円以上高かったです。」</p>
+        <div class="mt-4 rounded-xl overflow-hidden aspect-video bg-gray-200">
+          <img src="https://images.unsplash.com/photo-1547996160-81dfa63595aa?w=400&q=70" alt="お客様買取実績（オメガ）" class="w-full h-full object-cover">
+        </div>
+      </div>
+      <div class="card-hover bg-gray-50 rounded-2xl p-6 shadow-sm border border-gray-100">
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-12 h-12 bg-gold-100 rounded-full flex items-center justify-center">
+            <svg class="w-6 h-6 text-gold-700" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z"/></svg>
+          </div>
+          <div>
+            <p class="font-bold text-sm text-navy-900">70代男性</p>
+            <div class="flex text-gold-500 text-xs" aria-label="5つ星評価">
+              ★★★★★
+            </div>
+          </div>
+        </div>
+        <p class="text-sm text-gray-600 leading-relaxed">「対応が丁寧で押し売りも一切なし。納得がいかなければキャンセルできるという点が特に安心でした。また利用したいです。」</p>
+        <div class="mt-4 rounded-xl overflow-hidden aspect-video bg-gray-200">
+          <img src="https://images.unsplash.com/photo-1509941943102-10c232535736?w=400&q=70" alt="お客様買取実績（グランドセイコー）" class="w-full h-full object-cover">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== COMPANY INFO ========== -->
+<section class="py-16 bg-gray-50">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="grid lg:grid-cols-2 gap-10">
+      <!-- Company Info -->
+      <div>
+        <p class="text-gold-700 text-xs font-bold tracking-widest uppercase mb-2">Company</p>
+        <h2 class="text-2xl md:text-3xl font-serif font-bold text-navy-900 mb-6">運営会社・<span class="gold-text">実店舗情報</span></h2>
+        <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+          <div class="aspect-video bg-gray-200">
+            <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&q=70" alt="時計一番.madoguchi 店舗外観" class="w-full h-full object-cover">
+          </div>
+          <div class="p-6">
+            <table class="w-full text-sm">
+              <tbody class="divide-y divide-gray-100">
+                <tr class="py-2">
+                  <td class="py-2.5 text-gray-500 w-24 font-medium">店舗名</td>
+                  <td class="py-2.5 font-semibold text-navy-900">時計一番.madoguchi</td>
+                </tr>
+                <tr>
+                  <td class="py-2.5 text-gray-500 font-medium">運営会社</td>
+                  <td class="py-2.5 font-semibold text-navy-900">株式会社林崎</td>
+                </tr>
+                <tr>
+                  <td class="py-2.5 text-gray-500 font-medium">所在地</td>
+                  <td class="py-2.5 text-navy-900">東京都港区芝</td>
+                </tr>
+                <tr>
+                  <td class="py-2.5 text-gray-500 font-medium">電話番号</td>
+                  <td class="py-2.5">
+                    <a href="tel:0150-1791-9465" class="text-gold-700 font-bold hover:text-gold-600 focus:outline-none focus:ring-2 focus:ring-gold-400 rounded">0150-1791-9465</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="py-2.5 text-gray-500 font-medium">営業時間</td>
+                  <td class="py-2.5 text-navy-900">9:00〜21:00（年中無休）</td>
+                </tr>
+                <tr>
+                  <td class="py-2.5 text-gray-500 font-medium">従業員数</td>
+                  <td class="py-2.5 text-navy-900">50名</td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="mt-4 grid grid-cols-2 gap-3 text-xs text-gray-600">
+              <div class="flex items-center gap-1.5">
+                <svg class="w-4 h-4 text-gold-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"/></svg>
+                芝公園 徒歩5分
+              </div>
+              <div class="flex items-center gap-1.5">
+                <svg class="w-4 h-4 text-gold-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"/></svg>
+                田町 徒歩7分
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ -->
+      <div id="faq">
+        <p class="text-gold-700 text-xs font-bold tracking-widest uppercase mb-2">FAQ</p>
+        <h2 class="text-2xl md:text-3xl font-serif font-bold text-navy-900 mb-6">よくある<span class="gold-text">質問</span></h2>
+        <div class="space-y-3" role="list">
+          <div class="faq-item bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden" role="listitem">
+            <button onclick="toggleFaq(this)" class="w-full flex items-center justify-between px-5 py-4 text-left focus:outline-none focus:ring-2 focus:ring-gold-400 cursor-pointer"
+              aria-expanded="false">
+              <span class="text-sm font-semibold text-navy-900 pr-4">時計が動かない・壊れていても買取可能ですか？</span>
+              <span class="faq-icon text-gold-600 text-xl font-bold flex-shrink-0" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-content px-5 pb-4">
+              <p class="text-sm text-gray-600 leading-relaxed">はい、動かない状態・故障している状態でも買取可能です。状態によって査定額は変わりますが、諦めずにご相談ください。</p>
+            </div>
+          </div>
+          <div class="faq-item bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden" role="listitem">
+            <button onclick="toggleFaq(this)" class="w-full flex items-center justify-between px-5 py-4 text-left focus:outline-none focus:ring-2 focus:ring-gold-400 cursor-pointer"
+              aria-expanded="false">
+              <span class="text-sm font-semibold text-navy-900 pr-4">保証書や箱がなくても査定してもらえますか？</span>
+              <span class="faq-icon text-gold-600 text-xl font-bold flex-shrink-0" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-content px-5 pb-4">
+              <p class="text-sm text-gray-600 leading-relaxed">もちろん査定可能です。付属品がある場合は査定額がアップすることがありますが、なくても問題ありません。</p>
+            </div>
+          </div>
+          <div class="faq-item bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden" role="listitem">
+            <button onclick="toggleFaq(this)" class="w-full flex items-center justify-between px-5 py-4 text-left focus:outline-none focus:ring-2 focus:ring-gold-400 cursor-pointer"
+              aria-expanded="false">
+              <span class="text-sm font-semibold text-navy-900 pr-4">出張買取に費用はかかりますか？</span>
+              <span class="faq-icon text-gold-600 text-xl font-bold flex-shrink-0" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-content px-5 pb-4">
+              <p class="text-sm text-gray-600 leading-relaxed">出張費・査定費・キャンセル料は一切かかりません。すべて無料です。</p>
+            </div>
+          </div>
+          <div class="faq-item bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden" role="listitem">
+            <button onclick="toggleFaq(this)" class="w-full flex items-center justify-between px-5 py-4 text-left focus:outline-none focus:ring-2 focus:ring-gold-400 cursor-pointer"
+              aria-expanded="false">
+              <span class="text-sm font-semibold text-navy-900 pr-4">査定からキャンセルまでどのくらい時間がかかりますか？</span>
+              <span class="faq-icon text-gold-600 text-xl font-bold flex-shrink-0" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-content px-5 pb-4">
+              <p class="text-sm text-gray-600 leading-relaxed">最短当日に査定・現金化が可能です。お急ぎの場合はお申し込み時にお知らせください。</p>
+            </div>
+          </div>
+          <div class="faq-item bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden" role="listitem">
+            <button onclick="toggleFaq(this)" class="w-full flex items-center justify-between px-5 py-4 text-left focus:outline-none focus:ring-2 focus:ring-gold-400 cursor-pointer"
+              aria-expanded="false">
+              <span class="text-sm font-semibold text-navy-900 pr-4">対応していないブランド・地域はありますか？</span>
+              <span class="faq-icon text-gold-600 text-xl font-bold flex-shrink-0" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-content px-5 pb-4">
+              <p class="text-sm text-gray-600 leading-relaxed">ほぼすべてのブランドに対応しており、全国どこでも対応可能です。お気軽にご相談ください。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FOOTER CTA ========== -->
+<section class="bg-navy-950 text-white py-14">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="text-center mb-10">
+      <h2 class="text-2xl md:text-3xl font-serif font-bold mb-2">まずは<span class="gold-text">無料査定</span>から。</h2>
+      <p class="text-gray-400 text-sm">お持ちの時計の価値を確認しませんか？</p>
+    </div>
+    <div class="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto mb-10">
+      <div class="bg-white/5 rounded-2xl p-6">
+        <p class="text-gold-400 text-xs font-bold uppercase tracking-widest mb-4">お名前</p>
+        <div class="space-y-3">
+          <div class="bg-white/10 rounded-lg px-4 py-2.5 text-sm text-gray-400">お名前</div>
+          <div class="bg-white/10 rounded-lg px-4 py-2.5 text-sm text-gray-400">メールアドレス</div>
+          <div class="bg-white/10 rounded-lg px-4 py-2.5 text-sm text-gray-400">電話番号 <span class="text-red-400">※必須</span></div>
+        </div>
+      </div>
+      <div class="flex flex-col justify-between">
+        <div class="grid grid-cols-3 gap-3 mb-6">
+          <div class="bg-white/5 rounded-xl p-4 text-center">
+            <p class="text-gold-400 text-xl font-bold">¥0</p>
+            <p class="text-xs text-gray-400 mt-1">査定費用</p>
+          </div>
+          <div class="bg-white/5 rounded-xl p-4 text-center">
+            <p class="text-gold-400 text-xl font-bold">¥0</p>
+            <p class="text-xs text-gray-400 mt-1">出張費用</p>
+          </div>
+          <div class="bg-white/5 rounded-xl p-4 text-center">
+            <p class="text-gold-400 text-xl font-bold">¥0</p>
+            <p class="text-xs text-gray-400 mt-1">秘密厳守</p>
+          </div>
+        </div>
+        <div class="space-y-3">
+          <a href="#form" class="block gold-gradient text-white text-center font-bold py-3.5 rounded-full hover:opacity-90 transition-opacity focus:outline-none focus:ring-2 focus:ring-gold-400 cursor-pointer">
+            無料査定を申し込む →
+          </a>
+          <a href="#line" class="block line-btn text-white text-center font-bold py-3.5 rounded-full hover:opacity-90 transition-opacity focus:outline-none focus:ring-2 focus:ring-green-400 cursor-pointer">
+            LINEでご相談はこちら
+          </a>
+        </div>
+      </div>
+    </div>
+    <p class="text-xs text-gray-500 text-center">入力いただいた個人情報は査定以外の用途には使用しません。</p>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer class="bg-navy-950 border-t border-white/10 text-gray-400 text-xs py-8">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="grid md:grid-cols-3 gap-8 mb-8">
+      <div>
+        <p class="text-gold-500 font-bold text-base mb-3 font-serif">時計一番<span class="text-white text-xs font-sans">.madoguchi</span></p>
+        <p class="leading-relaxed">大切な時計の価値を、<br>気軽に確認してください。</p>
+      </div>
+      <div>
+        <p class="text-white font-semibold mb-3">サイトマップ</p>
+        <ul class="space-y-2">
+          <li><a href="#" class="hover:text-gold-400 transition-colors focus:outline-none focus:ring-1 focus:ring-gold-400 rounded">ホーム</a></li>
+          <li><a href="#reason" class="hover:text-gold-400 transition-colors focus:outline-none focus:ring-1 focus:ring-gold-400 rounded">選ばれる理由</a></li>
+          <li><a href="#results" class="hover:text-gold-400 transition-colors focus:outline-none focus:ring-1 focus:ring-gold-400 rounded">買取実績</a></li>
+          <li><a href="#flow" class="hover:text-gold-400 transition-colors focus:outline-none focus:ring-1 focus:ring-gold-400 rounded">ご利用の流れ</a></li>
+          <li><a href="#faq" class="hover:text-gold-400 transition-colors focus:outline-none focus:ring-1 focus:ring-gold-400 rounded">よくある質問</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="text-white font-semibold mb-3">プライバシーポリシー</p>
+        <ul class="space-y-2">
+          <li><a href="#" class="hover:text-gold-400 transition-colors focus:outline-none focus:ring-1 focus:ring-gold-400 rounded">プライバシーポリシー</a></li>
+          <li><a href="#" class="hover:text-gold-400 transition-colors focus:outline-none focus:ring-1 focus:ring-gold-400 rounded">特定商取引法に基づく表記</a></li>
+          <li><a href="#" class="hover:text-gold-400 transition-colors focus:outline-none focus:ring-1 focus:ring-gold-400 rounded">お問い合わせ</a></li>
+        </ul>
+        <div class="mt-4">
+          <a href="https://line.me" id="line" class="line-btn inline-flex items-center gap-2 text-white font-bold px-4 py-2 rounded-lg text-xs hover:opacity-90 transition-opacity focus:outline-none focus:ring-2 focus:ring-green-400 cursor-pointer" target="_blank" rel="noopener noreferrer">
+            <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19.365 9.89c.50 0 .906.41.906.91s-.406.91-.906.91H17.35v1.14h2.016c.5 0 .906.41.906.91s-.406.91-.906.91H16.44a.91.91 0 01-.906-.91V8.98c0-.5.406-.91.906-.91h2.925zm-7.38 3.87c0 .5-.406.91-.906.91-.5 0-.906-.41-.906-.91V8.98c0-.5.406-.91.906-.91s.906.41.906.91v4.78zm-3.24.91H6.73a.91.91 0 01-.906-.91V8.98c0-.5.406-.91.906-.91s.906.41.906.91v3.87h1.109c.5 0 .906.41.906.91s-.406.91-.906.91zM24 10.31C24 4.62 18.615 0 12 0S0 4.62 0 10.31c0 5.09 4.515 9.36 10.607 10.172.413.09.975.274 1.117.628.127.321.083.824.041 1.148l-.18 1.08c-.055.321-.253 1.255 1.098.684 1.352-.572 7.297-4.296 9.957-7.354C23.329 14.54 24 12.5 24 10.31z"/></svg>
+            友だち追加でご相談はこちら
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="border-t border-white/10 pt-6 text-center">
+      <p>©2025 時計一番.madoguchi All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+  function toggleFaq(btn) {
+    const item = btn.closest('.faq-item');
+    const isOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq-item.open').forEach(el => {
+      el.classList.remove('open');
+      el.querySelector('button').setAttribute('aria-expanded', 'false');
+    });
+    if (!isOpen) {
+      item.classList.add('open');
+      btn.setAttribute('aria-expanded', 'true');
+    }
+  }
+</script>
+
+</body>
+</html>
